@@ -1,5 +1,7 @@
 {
   "latest": "0.0.0.5",
-  "message_de": "Update verfügbar! Bitte lade die neue Version von LSPDFR oder GTA5 Mods herunter.",
-  "message_en": "Update available! Please download the new version from LSPDFR or GTA5 Mods."
+  "message_de": "Update verfügbar! Bitte lade die neue Version von GitHub Releases.",
+  "message_en": "Update available! Please download the new version from GitHub Releases.",
+  "changelog_de": "0.0.0.5\\n- Update-Hinweis abschaltbar\\n- INI Selbstheilung für Modelle\\n\\n0.0.0.6 Preview\\n- Dynamische Täter-Reaktionen",
+  "changelog_en": "0.0.0.5\\n- Update notification can be disabled\\n- INI model self-healing\\n\\n0.0.0.6 Preview\\n- Dynamic suspect reactions"
 }
