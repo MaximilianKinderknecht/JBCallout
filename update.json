@@ -1,33 +1,40 @@
 {
-  "latest": "0.0.0.5",
-  "message_de": "Neues Update verfügbar: Store-Raubüberfälle finden jetzt im Innenraum statt!",
-  "message_en": "New update available: Store robberies now take place inside interiors!",
+  "latest": "0.0.0.6",
 
-  "changelog_de": 
+  "message_de": "Neues Update verfügbar: Dynamische Täter-KI mit Stress- und Emotionssystem!",
+  "message_en": "New update available: Dynamic suspect AI with stress and emotion system!",
+
+  "changelog_de":
 "NEUE FEATURES:\n\
-- Store-Raubüberfälle finden nun direkt IM Geschäft statt.\n\
-- Mehrere neue 24/7-Store-Locations in Los Santos hinzugefügt.\n\
-- Mehrstufiges Verhandlungssystem mit dynamischen Erfolgschancen.\n\
-- Store-Dumper-Tool zum einfachen Hinzufügen neuer Stores.\n\
-- Mehrsprachige Benachrichtigungen (Deutsch / Englisch).\n\
-- Automatische Update-Erkennung mit Changelog-Anzeige.\n\n\
+- Neues dynamisches Täter-KI-System mit Stress- und Emotionslogik.\n\
+- Täter reagieren nun auf Nähe, Waffenstatus, Zielen, Sprinten und ruhiges Verhalten.\n\
+- Emotionale Zustände: ruhig, nervös, aggressiv, panisch.\n\
+- Unterschiedliche Täter-Typen (nervöser Junkie, durchschnittlicher Täter, Profi).\n\
+- Zufällige Eskalationen möglich – auch bei ruhigem Vorgehen.\n\
+- Neues SignalDirector-System für sichtbare Täter-Reaktionen.\n\
+- Erweiterte Mehrsprachigkeit für alle neuen KI- und Update-Texte.\n\
+- Zentrale Lokalisierung über INI (einfach erweiterbar).\n\n\
 VERBESSERUNGEN & FIXES:\n\
-- Fehler behoben, bei dem Täter/Kassierer mehrfach spawnten.\n\
-- Automatische Selbstheilung bei ungültigen Ped-Modellen.\n\
-- Verbesserte Spawn- und State-Logik für mehr Stabilität.\n\
-- Erweiterte Debug-Logs für Entwickler.",
+- Saubere Trennung zwischen Callout-Logik und KI-Systemen.\n\
+- Verbesserte Stabilität durch intervallbasierte KI-Updates.\n\
+- Performance-Optimierungen im Verhandlungs- und Eskalationssystem.\n\
+- Mehrere kleinere Bugs und State-Probleme behoben.\n\
+- Erweiterte Debug-Logs für KI-Zustände und Emotionen.",
 
   "changelog_en":
 "NEW FEATURES:\n\
-- Store robberies now take place inside store interiors.\n\
-- Added multiple new 24/7 store locations across Los Santos.\n\
-- Multi-stage negotiation system with dynamic success chances.\n\
-- Store dumper tool to easily add new store locations.\n\
-- Multi-language notifications (German / English).\n\
-- Automatic update detection with in-game changelog display.\n\n\
+- New dynamic suspect AI system with stress and emotion logic.\n\
+- Suspects now react to distance, weapon state, aiming, sprinting, and calm behavior.\n\
+- Emotional states: calm, nervous, aggressive, panicking.\n\
+- Different suspect types (nervous junkie, average criminal, professional).\n\
+- Random escalations possible even during calm negotiations.\n\
+- New SignalDirector system for visible suspect reactions.\n\
+- Expanded multi-language support for all new AI and update texts.\n\
+- Centralized localization via INI (easily extensible).\n\n\
 IMPROVEMENTS & FIXES:\n\
-- Fixed an issue where suspects and clerks could spawn multiple times.\n\
-- Automatic self-healing for invalid ped models.\n\
-- Improved spawn and state logic for better stability.\n\
-- Extended debug logging for developers."
+- Clean separation between callout logic and AI systems.\n\
+- Improved stability with interval-based AI updates.\n\
+- Performance optimizations in negotiation and escalation handling.\n\
+- Fixed several minor bugs and state-related issues.\n\
+- Extended debug logging for AI states and emotions."
 }
