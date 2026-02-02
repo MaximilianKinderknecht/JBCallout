@@ -1,40 +1,34 @@
 {
-  "latest": "0.0.0.6",
+  "latest": "0.0.0.7",
 
-  "message_de": "Neues Update verfügbar: Dynamische Täter-KI mit Stress- und Emotionssystem!",
-  "message_en": "New update available: Dynamic suspect AI with stress and emotion system!",
+  "message_de": "Neues Update verfügbar: Transport-Unit-System & überarbeiteter Store-Raubüberfall!",
+  "message_en": "New update available: Transport unit system & reworked store robbery!",
 
   "changelog_de":
 "NEUE FEATURES:\n\
-- Neues dynamisches Täter-KI-System mit Stress- und Emotionslogik.\n\
-- Täter reagieren nun auf Nähe, Waffenstatus, Zielen, Sprinten und ruhiges Verhalten.\n\
-- Emotionale Zustände: ruhig, nervös, aggressiv, panisch.\n\
-- Unterschiedliche Täter-Typen (nervöser Junkie, durchschnittlicher Täter, Profi).\n\
-- Zufällige Eskalationen möglich – auch bei ruhigem Vorgehen.\n\
-- Neues SignalDirector-System für sichtbare Täter-Reaktionen.\n\
-- Erweiterte Mehrsprachigkeit für alle neuen KI- und Update-Texte.\n\
-- Zentrale Lokalisierung über INI (einfach erweiterbar).\n\n\
+- Neues Transport-Unit-System für verhaftete Täter.\n\
+- Abtransport kann nun manuell über eine Taste angefordert werden.\n\
+- Transportfahrzeuge fahren realistisch zur Einsatzstelle.\n\
+- Callout endet erst nach erfolgreichem Abtransport.\n\
+- Vollständige Mehrsprachigkeit (DE/EN) für alle neuen Texte.\n\n\
 VERBESSERUNGEN & FIXES:\n\
-- Saubere Trennung zwischen Callout-Logik und KI-Systemen.\n\
-- Verbesserte Stabilität durch intervallbasierte KI-Updates.\n\
-- Performance-Optimierungen im Verhandlungs- und Eskalationssystem.\n\
-- Mehrere kleinere Bugs und State-Probleme behoben.\n\
-- Erweiterte Debug-Logs für KI-Zustände und Emotionen.",
+- Store-Robbery-Callout komplett überarbeitet und stabilisiert.\n\
+- Kein vorzeitiges Einsatzende nach Verhaftung mehr.\n\
+- Fix für falsche \"Täter geflüchtet\"-Meldungen.\n\
+- Vanilla-Kassierer-Respawns zuverlässig verhindert.\n\
+- Zahlreiche Stabilitäts- und Ablaufprobleme behoben.",
 
   "changelog_en":
 "NEW FEATURES:\n\
-- New dynamic suspect AI system with stress and emotion logic.\n\
-- Suspects now react to distance, weapon state, aiming, sprinting, and calm behavior.\n\
-- Emotional states: calm, nervous, aggressive, panicking.\n\
-- Different suspect types (nervous junkie, average criminal, professional).\n\
-- Random escalations possible even during calm negotiations.\n\
-- New SignalDirector system for visible suspect reactions.\n\
-- Expanded multi-language support for all new AI and update texts.\n\
-- Centralized localization via INI (easily extensible).\n\n\
+- New transport unit system for arrested suspects.\n\
+- Transport can now be requested manually via key.\n\
+- Transport vehicles drive realistically to the scene.\n\
+- Callout now ends only after suspect transport is completed.\n\
+- Full multi-language support (DE/EN) for all new texts.\n\n\
 IMPROVEMENTS & FIXES:\n\
-- Clean separation between callout logic and AI systems.\n\
-- Improved stability with interval-based AI updates.\n\
-- Performance optimizations in negotiation and escalation handling.\n\
-- Fixed several minor bugs and state-related issues.\n\
-- Extended debug logging for AI states and emotions."
+- Store robbery callout fully reworked and stabilized.\n\
+- Callout no longer ends immediately after arrest.\n\
+- Fixed false \"suspect escaped\" messages.\n\
+- Prevented vanilla store clerk respawns.\n\
+- Fixed multiple stability and flow-related issues."
 }
