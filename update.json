@@ -1,34 +1,25 @@
 {
-  "latest": "0.0.0.7",
+  "latest": "0.0.0.8",
 
-  "message_de": "Neues Update verfügbar: Transport-Unit-System & überarbeiteter Store-Raubüberfall!",
-  "message_en": "New update available: Transport unit system & reworked store robbery!",
-
-  "changelog_de":
-"NEUE FEATURES:\n\
-- Neues Transport-Unit-System für verhaftete Täter.\n\
-- Abtransport kann nun manuell über eine Taste angefordert werden.\n\
-- Transportfahrzeuge fahren realistisch zur Einsatzstelle.\n\
-- Callout endet erst nach erfolgreichem Abtransport.\n\
-- Vollständige Mehrsprachigkeit (DE/EN) für alle neuen Texte.\n\n\
-VERBESSERUNGEN & FIXES:\n\
-- Store-Robbery-Callout komplett überarbeitet und stabilisiert.\n\
-- Kein vorzeitiges Einsatzende nach Verhaftung mehr.\n\
-- Fix für falsche \"Täter geflüchtet\"-Meldungen.\n\
-- Vanilla-Kassierer-Respawns zuverlässig verhindert.\n\
-- Zahlreiche Stabilitäts- und Ablaufprobleme behoben.",
+  "message_en": "New update available: AI behavior improvements & bug fixes!",
 
   "changelog_en":
-"NEW FEATURES:\n\
-- New transport unit system for arrested suspects.\n\
-- Transport can now be requested manually via key.\n\
-- Transport vehicles drive realistically to the scene.\n\
-- Callout now ends only after suspect transport is completed.\n\
-- Full multi-language support (DE/EN) for all new texts.\n\n\
-IMPROVEMENTS & FIXES:\n\
-- Store robbery callout fully reworked and stabilized.\n\
-- Callout no longer ends immediately after arrest.\n\
-- Fixed false \"suspect escaped\" messages.\n\
-- Prevented vanilla store clerk respawns.\n\
-- Fixed multiple stability and flow-related issues."
+"NEW:\n\
+\n\
+IMPROVEMENTS:\n\
+\n\
+[AI CHANGES]\n\
+- Suspects now react dynamically to distance, line of sight, and player behavior.\n\
+- Breaking line of sight can de-escalate situations, especially with trained suspects.\n\
+- Different suspect types now feel distinct and predictable.\n\
+- Nervous suspects may panic-fire under extreme stress.\n\
+- Professional suspects engage in controlled, targeted attacks instead of panicking.\n\
+- Calm and tactical player behavior is now rewarded.\n\
+\n\
+FIXES:\n\
+- Fixed an issue where a second clerk could sometimes spawn with unintended behavior.\n\
+- Fixed a debug issue where keys F7, F8, and similar had no function for users.\n\
+\n\
+REMOVED:\n\
+- Street Fight callout has been temporarily removed. This callout is not intended to be live at this time and will be re-added as soon as possible."
 }
