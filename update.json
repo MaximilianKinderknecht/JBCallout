@@ -1,25 +1,25 @@
 {
-  "latest": "0.0.0.8",
+  "latest": "0.0.0.9",
 
-  "message_en": "New update available: AI behavior improvements & bug fixes!",
+  "message_en": "New update available: New Street Fight callout & AI-driven encounters!",
 
   "changelog_en":
 "NEW:\n\
+- Added new dynamic Street Fight callout.\n\
+- Street fights now spawn organically in open-world locations.\n\
+- Multiple suspects spawn early and act independently.\n\
+- Encounters dynamically evolve based on player behavior.\n\
+\n\
+[STREET FIGHT – AI & GAMEPLAY]\n\
+- Integrated stress-based suspect behavior (escalation, fleeing, freezing).\n\
+- Suspects react to player distance, movement speed, and aggression.\n\
+- Visual suspect signals via SignalDirector (nervousness, agitation, panic).\n\
+- Situations can escalate into foot pursuits or de-escalate through calm player actions.\n\
+- No two Street Fight encounters play out the same.\n\
 \n\
 IMPROVEMENTS:\n\
-\n\
-[AI CHANGES]\n\
-- Suspects now react dynamically to distance, line of sight, and player behavior.\n\
-- Breaking line of sight can de-escalate situations, especially with trained suspects.\n\
-- Different suspect types now feel distinct and predictable.\n\
-- Nervous suspects may panic-fire under extreme stress.\n\
-- Professional suspects engage in controlled, targeted attacks instead of panicking.\n\
-- Calm and tactical player behavior is now rewarded.\n\
+- Improved overall suspect reaction timing and behavior consistency.\n\
 \n\
 FIXES:\n\
-- Fixed an issue where a second clerk could sometimes spawn with unintended behavior.\n\
-- Fixed a debug issue where keys F7, F8, and similar had no function for users.\n\
-\n\
-REMOVED:\n\
-- Street Fight callout has been temporarily removed. This callout is not intended to be live at this time and will be re-added as soon as possible."
+- Minor stability fixes related to suspect task handling."
 }
