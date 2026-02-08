@@ -1,25 +1,27 @@
 {
-  "latest": "0.0.0.9",
+  "latest": "1.0.0",
 
-  "message_en": "New update available: New Street Fight callout & AI-driven encounters!",
+  "message_en": "New update available: New Aggressive Road Rage Driver callout!",
 
   "changelog_en":
 "NEW:\n\
-- Added new dynamic Street Fight callout.\n\
-- Street fights now spawn organically in open-world locations.\n\
-- Multiple suspects spawn early and act independently.\n\
-- Encounters dynamically evolve based on player behavior.\n\
+- Added new dynamic Aggressive Road Rage Driver callout.\n\
+- Suspect initially blends into normal traffic and escalates only after player detection.\n\
+- Road rage can be triggered by proximity, sirens, or police presence.\n\
+- Optional victim vehicle enables realistic road rage scenarios in live traffic.\n\
+- Dynamic escalation paths including confrontation, vehicle pursuit, foot pursuit, or armed resistance.\n\
+- Extremely high replay value due to unpredictable and randomized outcomes.\n\
+- Versioning system updated to Major.Minor.Patch format.\n\
 \n\
-[STREET FIGHT – AI & GAMEPLAY]\n\
-- Integrated stress-based suspect behavior (escalation, fleeing, freezing).\n\
-- Suspects react to player distance, movement speed, and aggression.\n\
-- Visual suspect signals via SignalDirector (nervousness, agitation, panic).\n\
-- Situations can escalate into foot pursuits or de-escalate through calm player actions.\n\
-- No two Street Fight encounters play out the same.\n\
-\n\
-IMPROVEMENTS:\n\
-- Improved overall suspect reaction timing and behavior consistency.\n\
+[ROAD RAGE DRIVER – AI & GAMEPLAY]\n\
+- Integrated stress-based suspect behavior with increasing aggression.\n\
+- Suspect reactions depend on player distance, siren usage, movement, and weapon status.\n\
+- Added realistic road rage driving maneuvers (brake checking, cutting off vehicles, side-swiping).\n\
+- Smooth transition from calm driving to aggressive and hostile behavior.\n\
+- Route blip dynamically switches from vehicle tracking to on-foot suspect tracking.\n\
 \n\
 FIXES:\n\
-- Minor stability fixes related to suspect task handling."
+- Improved stability during vehicle stops and pursuits.\n\
+- Fixed edge cases when the suspect exits or re-enters vehicles.\n\
+- General cleanup and safety fixes when ending the callout."
 }
